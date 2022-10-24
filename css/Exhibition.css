@@ -1,0 +1,160 @@
+/*...........Exhibition section...........*/
+.main-exh {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  max-width: 680px;
+  max-height: 760px;
+  margin-top: 12px;
+  }
+  @media (max-width:1500px){
+    .main-exh {
+      width: 520px;
+      margin-top: 5px;
+    }
+    .ul-exh{
+      width: 520px;
+    }
+
+  }
+  @media (max-width:1366px){
+    .main-exh {
+      width: 380px;
+      margin-top: 0px;
+    }
+    .ul-exh{
+      width: 375px;
+    }
+
+  }
+  @media (max-width:768px){
+    .main-exh {
+      margin-top: 40px;
+    }
+    .ul-exh{
+      width: 370px;
+    }
+  } 
+  .ul-exh {
+    padding: 0;
+    max-width: 680px;
+    max-height: 760px;
+  }
+  .li-exh img {
+    max-width: 680px;
+    max-height: 680px;
+    width: calc(100vh - 240px);
+    height: calc(100vh - 240px);
+    border-radius: 15px;
+    
+  }
+  .li-exh .text-t-exh{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .li-exh h6{
+    font-weight: 300;
+    font-size: 1.3rem;
+    word-spacing: 5px;
+    
+  }
+
+
+  
+
+
+
+
+
+
+  /*...........Inside Exhibition section...........*/
+  /* .height{
+    height: 700px;
+  } */
+.exh {
+    width: 80%;
+  }
+  .mg-exh{
+    margin-top: 60px;
+    margin-bottom: 70px;
+ 
+
+  }
+  .img-h2 img {
+    height: 400px;
+    width: 100%;
+    border-radius: 15px !important;
+  }
+  .manifest {
+    height: 400px;
+    width: 100%;
+    
+  }
+  .manifest h2 {
+    font-weight: 800;
+  }
+  .manifest small {
+    letter-spacing: 1px;
+    color: #37474f;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  .gallery-style {
+    
+    width: 80%;
+  }
+  .pd{
+    padding-bottom: 40px !important;
+    
+  }
+   @media screen and (max-width: 1366px) {
+    .mg-exh {
+      margin-top: 30px;
+      margin-bottom: 35px;
+    }
+    .img-h2 img {
+      height: 385px !important;
+    }
+    .manifest {
+      height: 385px !important;
+      overflow: auto;
+      
+    }
+    .manifest small {
+      margin-right: 20px;
+    }
+  } 
+   @media screen and (max-width: 990px) {
+    .mg-exh {
+      margin-bottom: 0px;
+    }
+    .img-h2 img {
+      height: 385px !important;
+    }
+    .manifest {
+      height: 385px !important;
+      overflow: auto;
+     
+      margin-top: 30px;
+      
+    }
+  }
+  @media screen and (max-width: 768px){
+    .manifest {
+      margin-bottom:40px !important;
+      
+    }
+  } 
+   @media screen and (max-width: 550px) {
+     .mg-exh {
+      margin-right: 10px;
+     }
+     .gallery-style{
+      margin-right: 10px;
+    } 
+  
+  } 
